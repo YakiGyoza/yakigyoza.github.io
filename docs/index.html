@@ -26,7 +26,7 @@
 <script src="/assets/js/script.js"></script>
 
 </head>
-<body>
+<body class="top">
 
 <!-- ============================== Header Area ============================== -->
 <header class="header">
@@ -38,16 +38,24 @@
 </div><!-- /.menu-trigger -->
 
 <nav class="nav-global">
+
 <ul class="nav-global__nav">
 <li><a href="#about">焼き餃子協会について</a></li>
-<li><a href="#news">新着情報</a></li>
+<li><a href="/news/">お知らせ</a></li>
 <li><a href="#entry">入会案内</a></li>
-<li><a href="#contact">お問い合わせ</a></li>
+<!-- <li><a href="#contact">お問い合わせ</a></li> -->
 </ul><!-- /.nav-global__nav -->
+
 <ul class="nav-global__language">
 <li><a href="#" class="is-active">JPN</a></li>
 <li><a href="#">ENG</a></li>
 </ul><!-- /.nav-global__language -->
+
+<ul class="nav-global__sns">
+<li><a href="https://www.facebook.com/yaki.gyoza.japan/" target="_blank" class="-fb"><img src="/assets/img/common/ic_sns_facebook.svg" alt="facebook"></a></li>
+<li><a href="https://twitter.com/YakiGyozaJapan?lang=ja" target="_blank" class="-tw"><img src="/assets/img/common/ic_sns_twitter.svg" alt="twitter"></a></li>
+</ul><!-- /.nav-global__sns -->
+
 </nav><!-- /.nav-global -->
 
 </header><!-- /.header -->
@@ -59,11 +67,6 @@
 <article class="contents">
 
 <p class="tagline">美味しい餃子を作る人と食べる人を、もっと増やしたい。</p>
-
-<ul class="nav-sns">
-<li><a href="#" class="-fb">facebook</a></li>
-<li><a href="#" class="-tw">twitter</a></li>
-</ul><!-- /.nav-sns -->
 
 <section class="visual-top">
 <div class="visual-top__contents">
@@ -78,45 +81,45 @@
 
 <section id="news" class="area-common -news">
 <div class="wrap">
-<h2 class="headline -news"><span>新着情報</span></h2>
+<h2 class="headline -news"><span>お知らせ</span></h2>
 
-<div class="column-news">
-<div class="column-news__item">
+<div class="column-news-top">
+<div class="column-news-top__item">
 <a href="#">
-<div class="column-news__image"><img src="/assets/img/dummy/img_dummy.jpg" alt=""></div>
-<div class="column-news__contents">
+<div class="column-news-top__image"><img src="/assets/img/dummy/img_dummy.jpg" alt=""></div>
+<div class="column-news-top__contents">
 <dl>
 <dt>2018.07.14</dt>
 <dd>ごあいさつごあいさつごあいさつごあいさつ</dd>
 </dl>
-</div><!-- /.column-news__contents -->
+</div><!-- /.column-news-top__contents -->
 </a>
-</div><!-- /.column-news__item -->
-<div class="column-news__item">
+</div><!-- /.column-news-top__item -->
+<div class="column-news-top__item">
 <a href="#">
-<div class="column-news__image"><img src="/assets/img/dummy/img_dummy.jpg" alt=""></div>
-<div class="column-news__contents">
+<div class="column-news-top__image"><img src="/assets/img/dummy/img_dummy.jpg" alt=""></div>
+<div class="column-news-top__contents">
 <dl>
 <dt>2018.07.14</dt>
 <dd>ごあいさつごあいさつごあいさつごあいさつ</dd>
 </dl>
-</div><!-- /.column-news__contents -->
+</div><!-- /.column-news-top__contents -->
 </a>
-</div><!-- /.column-news__item -->
-<div class="column-news__item">
+</div><!-- /.column-news-top__item -->
+<div class="column-news-top__item">
 <a href="#">
-<div class="column-news__image"><img src="/assets/img/dummy/img_dummy.jpg" alt=""></div>
-<div class="column-news__contents">
+<div class="column-news-top__image"><img src="/assets/img/dummy/img_dummy.jpg" alt=""></div>
+<div class="column-news-top__contents">
 <dl>
 <dt>2018.07.14</dt>
 <dd>ごあいさつごあいさつごあいさつごあいさつ</dd>
 </dl>
-</div><!-- /.column-news__contents -->
+</div><!-- /.column-news-top__contents -->
 </a>
-</div><!-- /.column-news__item -->
-</div><!-- /.column-news -->
+</div><!-- /.column-news-top__item -->
+</div><!-- /.column-news-top -->
 
-<div class="area-common__btn"><a href="#" class="btn -default">新着情報をすべてみる</a></div>
+<div class="area-common__btn"><a href="/news/" class="btn -default">お知らせをすべてみる</a></div>
 
 </div><!-- /.wrap -->
 </section><!-- /.area-common -->
@@ -605,17 +608,17 @@
 </div><!-- /.wrap -->
 </section><!-- /.area-common -->
 
-<section id="contact" class="area-common -contact">
+<!-- <section id="contact" class="area-common -contact">
 <div class="wrap">
 <h2 class="headline -contact">お問い合わせ</h2>
 
 <ul class="list-contact">
 <li><a href="#" class="-private">個人の方</a></li>
 <li><a href="#" class="-corporate">法人・店舗の方</a></li>
-</ul><!-- /.column-contact -->
+</ul>
 
-</div><!-- /.wrap -->
-</section><!-- /.area-common -->
+</div>
+</section> --><!-- /.area-common -->
 
 <section id="sitemap" class="area-common -sitemap">
 <div class="wrap">
@@ -646,14 +649,14 @@
 <li><a href="#">会員種別と特典について</a></li>
 </ul><!-- /.column-sitemap__list -->
 </div><!-- /.column-sitemap__item -->
-<div class="column-sitemap__item">
+<!-- <div class="column-sitemap__item">
 <p class="column-sitemap__headline"><a href="#">お問い合わせ</a></p>
 <ul class="column-sitemap__list">
 <li><a href="#">個人お問い合わせ</a></li>
 <li><a href="#">法人お問いあわせ</a></li>
 <li><a href="#">取材のお問い合わせ</a></li>
-</ul><!-- /.column-sitemap__list -->
-</div><!-- /.column-sitemap__item -->
+</ul>
+</div> --><!-- /.column-sitemap__item -->
 </div><!-- /.column-sitemap -->
 
 </div><!-- /.wrap -->
